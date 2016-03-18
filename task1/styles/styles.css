@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #d3d3d3;
+}
+nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    overflow:hidden;
+    background:#696969 url(images/baidu.jpg) repeat-x;
+}
+ul.nav {
+    float:right;
+}
+ul.nav li{
+    float:left;
+}
+ul.nav a {
+    padding-right: 2em;
+    text-decoration:none;
+    color:#FFFFFF;
+}
+ul.nav a:hover{
+    color:#00ff7f;
+}
+nav #nvapng{
+    width: 150px;
+    height: 58px;
+    float: left;    
+}
+article{
+    margin: 2em;
+    padding: 2em;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px #666;
+    overflow: auto;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size:20px;
+    color:#808080;
+}
+h4{
+    color:#808080;
+   
+}
+.picturebox{
+    margin: 1em;
+    padding: 1em;
+    float: left;
+    display: block;
+    width:120px;
+    border: 1px solid #696969;
+}
+.picturebox p{
+    text-align: center;
+}
+.picturebox img{
+    width: 120px;
+}
+.picture{
+    width:150px;
+}
+table{
+    border-collapse:collapse;
+    width: 100%;
+    
+}
+table thead {
+    font-weight: bold;
+    text-align: left;
+    background-color: #000000;
+    color: #ffffff;    
+}
+table th{
+     border: 1px solid #ffffff;
+}
+table td{
+     border: 1px solid #000000;
+}
+table tfoot{
+    background-color: #A9A9A9;
+    color: #000000;
+    font-weight: bold;
+}
+form{
+    margin: 2em;
+    padding: 2em;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px #666;   
+    display: block;
+}
+form h2{
+    border-left: 3px solid #696969;
+}
+
+
+div div{
+    float: left;
+    width: 40em;
+}
+form p{ 
+    margin-top:0em;
+    float:left;
+    color: #696969;
+}
+label{
+    text-align: right;
+    margin-right:1em;
+    float:left;
+    width:40em;
+    cursor:pointer;    
+}
+form div{
+    margin: 0.5em;
+    clear: left;
+}
+
+button{
+    width:100%;
+    background-color: #0000cd;
+    color:#ffffff;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
